@@ -137,12 +137,9 @@
 		B413FD751C87888400597025 /* did you know pokemon */ = {
 			isa = PBXGroup;
 			children = (
-				B413FD761C87888400597025 /* AppDelegate.swift */,
-				B413FD7A1C87888400597025 /* Main.storyboard */,
-				B413FD7D1C87888400597025 /* Assets.xcassets */,
-				B413FD7F1C87888400597025 /* LaunchScreen.storyboard */,
-				B413FD821C87888400597025 /* Info.plist */,
-				B4FA554F1C878AE900175F97 /* PokedexViewController.swift */,
+				B4B66A341C928D840082A9B6 /* classes */,
+				B4B66A331C928D730082A9B6 /* resources */,
+				B4B66A321C928D620082A9B6 /* storyboards */,
 			);
 			path = "did you know pokemon";
 			sourceTree = "<group>";
@@ -163,6 +160,33 @@
 				B413FD981C87888400597025 /* Info.plist */,
 			);
 			path = "did you know pokemonUITests";
+			sourceTree = "<group>";
+		};
+		B4B66A321C928D620082A9B6 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B413FD7F1C87888400597025 /* LaunchScreen.storyboard */,
+				B413FD7A1C87888400597025 /* Main.storyboard */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
+		B4B66A331C928D730082A9B6 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B413FD7D1C87888400597025 /* Assets.xcassets */,
+				B413FD821C87888400597025 /* Info.plist */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		B4B66A341C928D840082A9B6 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				B413FD761C87888400597025 /* AppDelegate.swift */,
+				B4FA554F1C878AE900175F97 /* PokedexViewController.swift */,
+			);
+			name = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
