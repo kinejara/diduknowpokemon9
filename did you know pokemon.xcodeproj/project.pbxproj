@@ -10,6 +10,7 @@
 		116A636C053289DC98B13A42 /* libPods-did you know pokemonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C34D52A63009E2CF93497CDB /* libPods-did you know pokemonTests.a */; };
 		577FB1F6A601B021F1B63FA9 /* libPods-did you know pokemonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BFE25A169915901F186F1F /* libPods-did you know pokemonUITests.a */; };
 		78A26A66EEBAADD48BEAA5AB /* libPods-did you know pokemon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D65377ABAC7CF7CB9164895 /* libPods-did you know pokemon.a */; };
+		B4047E751C952C2C00DDFFE1 /* tableViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4047E741C952C2C00DDFFE1 /* tableViewTableViewController.swift */; };
 		B413FD771C87888400597025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413FD761C87888400597025 /* AppDelegate.swift */; };
 		B413FD7C1C87888400597025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B413FD7A1C87888400597025 /* Main.storyboard */; };
 		B413FD7E1C87888400597025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B413FD7D1C87888400597025 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		9928204182B285FF6F84F6D5 /* Pods-did you know pokemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-did you know pokemon.release.xcconfig"; path = "Pods/Target Support Files/Pods-did you know pokemon/Pods-did you know pokemon.release.xcconfig"; sourceTree = "<group>"; };
 		A7CD8DF6F9DFDB09A52350AA /* Pods-did you know pokemonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-did you know pokemonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-did you know pokemonUITests/Pods-did you know pokemonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A96FC95D78E1F778DE4BDD06 /* Pods-did you know pokemonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-did you know pokemonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-did you know pokemonTests/Pods-did you know pokemonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4047E741C952C2C00DDFFE1 /* tableViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewTableViewController.swift; sourceTree = "<group>"; };
 		B413FD731C87888400597025 /* did you know pokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "did you know pokemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B413FD761C87888400597025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B413FD7B1C87888400597025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				B413FD761C87888400597025 /* AppDelegate.swift */,
 				B4FA554F1C878AE900175F97 /* PokedexViewController.swift */,
+				B4047E741C952C2C00DDFFE1 /* tableViewTableViewController.swift */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4047E751C952C2C00DDFFE1 /* tableViewTableViewController.swift in Sources */,
 				B413FD771C87888400597025 /* AppDelegate.swift in Sources */,
 				B4FA55501C878AE900175F97 /* PokedexViewController.swift in Sources */,
 			);

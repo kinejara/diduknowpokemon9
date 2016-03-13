@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="130" width="600" height="340"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="tD0-nt-QPa">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="pokeCell" id="tD0-nt-QPa">
                                         <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tD0-nt-QPa" id="e16-Sr-Unc">
@@ -42,6 +42,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="8OV-xH-2Yy"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="BPq-xR-YwB"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -58,6 +62,9 @@
                             <constraint firstAttribute="trailing" secondItem="4F5-g4-UXQ" secondAttribute="trailing" id="y1f-Mc-TxM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="2oq-Od-lCl" id="r6R-Dg-CL5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
