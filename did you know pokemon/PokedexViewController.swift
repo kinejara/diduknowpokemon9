@@ -11,7 +11,7 @@ import UIKit
 class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
-    let facts : [String] = PkmnFacts().anime
+    let facts : [String] = PkmnFacts().allFacts
     let cellId = "pokeCell"
     
     override func viewDidLoad() {
@@ -34,6 +34,14 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
         return self.facts.count
     }
     
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
+    
+    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
+    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier(cellId)! as UITableViewCell
         cell.textLabel?.font = UIFont(name: "PokemonGB", size: 14.0)
@@ -47,11 +55,28 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
     }
     
-    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        self.showAlertControllerWithFactText("\(self.facts[indexPath.row])")
     }
     
-    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+    func showAlertControllerWithFactText(fact : String) {
+        /*
+        let alertController = UIAlertController(title: "Hey AppCoda", message: "What do you want to do?", preferredStyle: .Alert)
+        
+        let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+        alertController.addAction(defaultAction)
+        
+        presentViewController(alertController, animated: true, completion: nil)
+        */
+        let alertController = UIAlertController(title: "", message: fact, preferredStyle: .ActionSheet)
+        let defaultAction = UIAlertAction(title: "Cancel", style: .Destructive, handler: nil)
+        let shareFaceBook = UIAlertAction(title: "Facebook", style: .Default, handler: nil)
+        let smsShare = UIAlertAction(title: "SMS", style: .Default, handler: nil)
+        
+        alertController.addAction(shareFaceBook)
+        alertController.addAction(defaultAction)
+        presentViewController(alertController, animated: true, completion: nil)
     }
 }
