@@ -62,21 +62,13 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func showAlertControllerWithFactText(fact : String) {
-        /*
-        let alertController = UIAlertController(title: "Hey AppCoda", message: "What do you want to do?", preferredStyle: .Alert)
-        
-        let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
-        alertController.addAction(defaultAction)
-        
-        presentViewController(alertController, animated: true, completion: nil)
-        */
-        let alertController = UIAlertController(title: "", message: fact, preferredStyle: .ActionSheet)
-        let defaultAction = UIAlertAction(title: "Cancel", style: .Destructive, handler: nil)
-        let shareFaceBook = UIAlertAction(title: "Facebook", style: .Default, handler: nil)
-        let smsShare = UIAlertAction(title: "SMS", style: .Default, handler: nil)
-        
-        alertController.addAction(shareFaceBook)
-        alertController.addAction(defaultAction)
-        presentViewController(alertController, animated: true, completion: nil)
+        let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+        dispatch_async(dispatch_get_global_queue(priority, 0)) {
+            let image = UIImage(named: "shareImage")
+            let vc = UIActivityViewController(activityItems: [fact, image!], applicationActivities: [])
+            dispatch_async(dispatch_get_main_queue()) {
+                self.presentViewController(vc, animated: true, completion: nil)
+            }
+        }
     }
 }
