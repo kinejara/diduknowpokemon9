@@ -11,7 +11,7 @@ import UIKit
 class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
-    let facts : [String] = PkmnFacts().allFacts
+    var facts : [String] = PkmnFacts().allFacts
     let cellId = "pokeCell"
     
     
@@ -20,6 +20,13 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         self.tableView.backgroundColor = UIColor.appBackgroundColor()
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: self.cellId)
+    }
+    
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        if motion == .MotionShake {
+            self.facts = facts.shuffle()
+            self.tableView.reloadData()
+        }
     }
     
     func customizeTableView () {
@@ -71,4 +78,5 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
         }
     }
+    
 }
