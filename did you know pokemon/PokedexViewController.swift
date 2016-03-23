@@ -14,6 +14,7 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
     let facts : [String] = PkmnFacts().allFacts
     let cellId = "pokeCell"
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,7 +26,6 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.tableView.backgroundColor = UIColor.clearColor()
     }
     
-    // MARK: - Table view data source
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
@@ -57,10 +57,10 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        
         self.showAlertControllerWithFactText("\(self.facts[indexPath.row])")
     }
     
+    //MARK: Share using Activity View Controller
     func showAlertControllerWithFactText(fact : String) {
         let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
         dispatch_async(dispatch_get_global_queue(priority, 0)) {

@@ -17,6 +17,7 @@
 		B413FD811C87888400597025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B413FD7F1C87888400597025 /* LaunchScreen.storyboard */; };
 		B413FD8C1C87888400597025 /* did_you_know_pokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413FD8B1C87888400597025 /* did_you_know_pokemonTests.swift */; };
 		B413FD971C87888400597025 /* did_you_know_pokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413FD961C87888400597025 /* did_you_know_pokemonUITests.swift */; };
+		B4F5E1B01CA22CF8008BD6D1 /* PkmnCommons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E1AF1CA22CF8008BD6D1 /* PkmnCommons.swift */; };
 		B4FA55501C878AE900175F97 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA554F1C878AE900175F97 /* PokedexViewController.swift */; };
 		B4FD5CFA1C9F982600460B21 /* UIColor+PKMN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD5CF91C9F982600460B21 /* UIColor+PKMN.swift */; };
 		B4FD5CFD1C9F9CBB00460B21 /* facts.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FD5CFB1C9F9CBB00460B21 /* facts.plist */; };
@@ -63,6 +64,7 @@
 		B413FD921C87888400597025 /* did you know pokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "did you know pokemonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B413FD961C87888400597025 /* did_you_know_pokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = did_you_know_pokemonUITests.swift; sourceTree = "<group>"; };
 		B413FD981C87888400597025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F5E1AF1CA22CF8008BD6D1 /* PkmnCommons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PkmnCommons.swift; sourceTree = "<group>"; };
 		B4FA554F1C878AE900175F97 /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
 		B4FD5CF91C9F982600460B21 /* UIColor+PKMN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+PKMN.swift"; sourceTree = "<group>"; };
 		B4FD5CFB1C9F9CBB00460B21 /* facts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = facts.plist; sourceTree = "<group>"; };
@@ -197,12 +199,21 @@
 		B4B66A341C928D840082A9B6 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				B4F5E1AE1CA22CC6008BD6D1 /* commons */,
 				B4FD5CF81C9F97F400460B21 /* extensions */,
 				B413FD761C87888400597025 /* AppDelegate.swift */,
 				B4FA554F1C878AE900175F97 /* PokedexViewController.swift */,
 				B4FD5CFF1C9F9E5900460B21 /* PkmnFacts.swift */,
 			);
 			name = classes;
+			sourceTree = "<group>";
+		};
+		B4F5E1AE1CA22CC6008BD6D1 /* commons */ = {
+			isa = PBXGroup;
+			children = (
+				B4F5E1AF1CA22CF8008BD6D1 /* PkmnCommons.swift */,
+			);
+			name = commons;
 			sourceTree = "<group>";
 		};
 		B4FD5CF81C9F97F400460B21 /* extensions */ = {
@@ -483,6 +494,7 @@
 				B4FD5D001C9F9E5900460B21 /* PkmnFacts.swift in Sources */,
 				B4FD5CFA1C9F982600460B21 /* UIColor+PKMN.swift in Sources */,
 				B4FA55501C878AE900175F97 /* PokedexViewController.swift in Sources */,
+				B4F5E1B01CA22CF8008BD6D1 /* PkmnCommons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
