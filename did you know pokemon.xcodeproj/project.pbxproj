@@ -191,11 +191,11 @@
 		B4B66A331C928D730082A9B6 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				B413FD7D1C87888400597025 /* Assets.xcassets */,
 				B4FD5CFB1C9F9CBB00460B21 /* facts.plist */,
 				B4FD5CFC1C9F9CBB00460B21 /* hechos.plist */,
-				B413FD7D1C87888400597025 /* Assets.xcassets */,
-				B4047E761C95F4AA00DDFFE1 /* PokemonGB.ttf */,
 				B413FD821C87888400597025 /* Info.plist */,
+				B4047E761C95F4AA00DDFFE1 /* PokemonGB.ttf */,
 				EE49291E1CA77AB0009CA204 /* Localizable.strings */,
 			);
 			name = resources;
