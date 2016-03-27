@@ -13,7 +13,6 @@
 		B413FD771C87888400597025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413FD761C87888400597025 /* AppDelegate.swift */; };
 		B413FD7C1C87888400597025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B413FD7A1C87888400597025 /* Main.storyboard */; };
 		B413FD7E1C87888400597025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B413FD7D1C87888400597025 /* Assets.xcassets */; };
-		B413FD811C87888400597025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B413FD7F1C87888400597025 /* LaunchScreen.storyboard */; };
 		B413FD8C1C87888400597025 /* did_you_know_pokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413FD8B1C87888400597025 /* did_you_know_pokemonTests.swift */; };
 		B413FD971C87888400597025 /* did_you_know_pokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413FD961C87888400597025 /* did_you_know_pokemonUITests.swift */; };
 		B4F5E1B01CA22CF8008BD6D1 /* PkmnCommons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E1AF1CA22CF8008BD6D1 /* PkmnCommons.swift */; };
@@ -24,6 +23,7 @@
 		B4FD5CFE1C9F9CBB00460B21 /* hechos.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FD5CFC1C9F9CBB00460B21 /* hechos.plist */; };
 		B4FD5D001C9F9E5900460B21 /* PkmnFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD5CFF1C9F9E5900460B21 /* PkmnFacts.swift */; };
 		EE49291C1CA77AB0009CA204 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE49291E1CA77AB0009CA204 /* Localizable.strings */; };
+		EE4929241CA78257009CA204 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4929221CA78257009CA204 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,6 @@
 		B413FD761C87888400597025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B413FD7B1C87888400597025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B413FD7D1C87888400597025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B413FD801C87888400597025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B413FD821C87888400597025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B413FD871C87888400597025 /* did you know pokemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "did you know pokemonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B413FD8B1C87888400597025 /* did_you_know_pokemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = did_you_know_pokemonTests.swift; sourceTree = "<group>"; };
@@ -73,10 +72,10 @@
 		B4FD5CFC1C9F9CBB00460B21 /* hechos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = hechos.plist; sourceTree = "<group>"; };
 		B4FD5CFF1C9F9E5900460B21 /* PkmnFacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PkmnFacts.swift; sourceTree = "<group>"; };
 		C34D52A63009E2CF93497CDB /* libPods-did you know pokemonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-did you know pokemonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE49291A1CA77AA2009CA204 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		EE49291B1CA77AA2009CA204 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		EE49291D1CA77AB0009CA204 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EE4929211CA77AC1009CA204 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EE4929231CA78257009CA204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Downloads/diduknowforpkmn-lite-develop/DidYouKnowForPokemon8/Base.lproj/LaunchScreen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +181,7 @@
 		B4B66A321C928D620082A9B6 /* storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				B413FD7F1C87888400597025 /* LaunchScreen.storyboard */,
+				EE4929221CA78257009CA204 /* LaunchScreen.xib */,
 				B413FD7A1C87888400597025 /* Main.storyboard */,
 			);
 			name = storyboards;
@@ -350,9 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4FD5CFD1C9F9CBB00460B21 /* facts.plist in Resources */,
-				B413FD811C87888400597025 /* LaunchScreen.storyboard in Resources */,
 				B4FD5CFE1C9F9CBB00460B21 /* hechos.plist in Resources */,
 				EE49291C1CA77AB0009CA204 /* Localizable.strings in Resources */,
+				EE4929241CA78257009CA204 /* LaunchScreen.xib in Resources */,
 				B413FD7E1C87888400597025 /* Assets.xcassets in Resources */,
 				B413FD7C1C87888400597025 /* Main.storyboard in Resources */,
 				B4047E771C95F4AA00DDFFE1 /* PokemonGB.ttf in Resources */,
@@ -508,15 +507,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B413FD7F1C87888400597025 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B413FD801C87888400597025 /* Base */,
-				EE49291A1CA77AA2009CA204 /* es */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		EE49291E1CA77AB0009CA204 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -524,6 +514,14 @@
 				EE4929211CA77AC1009CA204 /* en */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EE4929221CA78257009CA204 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4929231CA78257009CA204 /* Base */,
+			);
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
