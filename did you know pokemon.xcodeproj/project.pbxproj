@@ -24,6 +24,12 @@
 		B4FD5D001C9F9E5900460B21 /* PkmnFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD5CFF1C9F9E5900460B21 /* PkmnFacts.swift */; };
 		EE49291C1CA77AB0009CA204 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE49291E1CA77AB0009CA204 /* Localizable.strings */; };
 		EE4929241CA78257009CA204 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4929221CA78257009CA204 /* LaunchScreen.xib */; };
+		EECCB59F1CA786B6008131D4 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECCB59E1CA786B6008131D4 /* NotificationCenter.framework */; };
+		EECCB5A21CA786B6008131D4 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCB5A11CA786B6008131D4 /* TodayViewController.swift */; };
+		EECCB5A91CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EECCB59D1CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EECCB5AF1CA78CAE008131D4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECCB5AE1CA78CAE008131D4 /* MainInterface.storyboard */; };
+		EECCB5B11CA78DD6008131D4 /* pokeLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = EECCB5B01CA78DD6008131D4 /* pokeLabel.png */; };
+		EECCB5B31CA79610008131D4 /* PokemonGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EECCB5B21CA79610008131D4 /* PokemonGB.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +47,28 @@
 			remoteGlobalIDString = B413FD721C87888400597025;
 			remoteInfo = "did you know pokemon";
 		};
+		EECCB5A71CA786B6008131D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B413FD6B1C87888400597025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECCB59C1CA786B6008131D4;
+			remoteInfo = DidYouKnowForPokemonWidget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EECCB5AD1CA786B6008131D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EECCB5A91CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D65377ABAC7CF7CB9164895 /* libPods-did you know pokemon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-did you know pokemon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +103,13 @@
 		EE49291D1CA77AB0009CA204 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EE4929211CA77AC1009CA204 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EE4929231CA78257009CA204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Downloads/diduknowforpkmn-lite-develop/DidYouKnowForPokemon8/Base.lproj/LaunchScreen.xib"; sourceTree = "<group>"; };
+		EECCB59D1CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DidYouKnowForPokemonWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECCB59E1CA786B6008131D4 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		EECCB5A11CA786B6008131D4 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		EECCB5A61CA786B6008131D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECCB5AE1CA78CAE008131D4 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainInterface.storyboard; path = "../../../Downloads/diduknowforpkmn-develop/DidYouKnowForPokemonWidget/MainInterface.storyboard"; sourceTree = "<group>"; };
+		EECCB5B01CA78DD6008131D4 /* pokeLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokeLabel.png; sourceTree = "<group>"; };
+		EECCB5B21CA79610008131D4 /* PokemonGB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PokemonGB.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +136,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EECCB59A1CA786B6008131D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECCB59F1CA786B6008131D4 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -124,6 +166,7 @@
 				1D65377ABAC7CF7CB9164895 /* libPods-did you know pokemon.a */,
 				C34D52A63009E2CF93497CDB /* libPods-did you know pokemonTests.a */,
 				87BFE25A169915901F186F1F /* libPods-did you know pokemonUITests.a */,
+				EECCB59E1CA786B6008131D4 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,6 +178,7 @@
 				B4B66A331C928D730082A9B6 /* resources */,
 				B413FD8A1C87888400597025 /* did you know pokemonTests */,
 				B413FD951C87888400597025 /* did you know pokemonUITests */,
+				EECCB5A01CA786B6008131D4 /* DidYouKnowForPokemonWidget */,
 				B413FD741C87888400597025 /* Products */,
 				898345D43B73023F502E54E7 /* Pods */,
 				8987C721FD2E7CDAFE811DB5 /* Frameworks */,
@@ -147,6 +191,7 @@
 				B413FD731C87888400597025 /* did you know pokemon.app */,
 				B413FD871C87888400597025 /* did you know pokemonTests.xctest */,
 				B413FD921C87888400597025 /* did you know pokemonUITests.xctest */,
+				EECCB59D1CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -238,6 +283,18 @@
 			name = extensions;
 			sourceTree = "<group>";
 		};
+		EECCB5A01CA786B6008131D4 /* DidYouKnowForPokemonWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EECCB5B21CA79610008131D4 /* PokemonGB.ttf */,
+				EECCB5B01CA78DD6008131D4 /* pokeLabel.png */,
+				EECCB5AE1CA78CAE008131D4 /* MainInterface.storyboard */,
+				EECCB5A11CA786B6008131D4 /* TodayViewController.swift */,
+				EECCB5A61CA786B6008131D4 /* Info.plist */,
+			);
+			path = DidYouKnowForPokemonWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,10 +305,12 @@
 				B413FD6F1C87888400597025 /* Sources */,
 				B413FD701C87888400597025 /* Frameworks */,
 				B413FD711C87888400597025 /* Resources */,
+				EECCB5AD1CA786B6008131D4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EECCB5A81CA786B6008131D4 /* PBXTargetDependency */,
 			);
 			name = "did you know pokemon";
 			productName = "did you know pokemon";
@@ -299,13 +358,30 @@
 			productReference = B413FD921C87888400597025 /* did you know pokemonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		EECCB59C1CA786B6008131D4 /* DidYouKnowForPokemonWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECCB5AC1CA786B6008131D4 /* Build configuration list for PBXNativeTarget "DidYouKnowForPokemonWidget" */;
+			buildPhases = (
+				EECCB5991CA786B6008131D4 /* Sources */,
+				EECCB59A1CA786B6008131D4 /* Frameworks */,
+				EECCB59B1CA786B6008131D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DidYouKnowForPokemonWidget;
+			productName = DidYouKnowForPokemonWidget;
+			productReference = EECCB59D1CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B413FD6B1C87888400597025 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = kine;
 				TargetAttributes = {
@@ -320,6 +396,10 @@
 					B413FD911C87888400597025 = {
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = B413FD721C87888400597025;
+					};
+					EECCB59C1CA786B6008131D4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WFBNVJ2MHG;
 					};
 				};
 			};
@@ -339,6 +419,7 @@
 				B413FD721C87888400597025 /* did you know pokemon */,
 				B413FD861C87888400597025 /* did you know pokemonTests */,
 				B413FD911C87888400597025 /* did you know pokemonUITests */,
+				EECCB59C1CA786B6008131D4 /* DidYouKnowForPokemonWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -369,6 +450,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECCB59B1CA786B6008131D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECCB5AF1CA78CAE008131D4 /* MainInterface.storyboard in Resources */,
+				EECCB5B11CA78DD6008131D4 /* pokeLabel.png in Resources */,
+				EECCB5B31CA79610008131D4 /* PokemonGB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +573,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EECCB5991CA786B6008131D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECCB5A21CA786B6008131D4 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -494,6 +593,11 @@
 			isa = PBXTargetDependency;
 			target = B413FD721C87888400597025 /* did you know pokemon */;
 			targetProxy = B413FD931C87888400597025 /* PBXContainerItemProxy */;
+		};
+		EECCB5A81CA786B6008131D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECCB59C1CA786B6008131D4 /* DidYouKnowForPokemonWidget */;
+			targetProxy = EECCB5A71CA786B6008131D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -616,6 +720,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "did you know pokemon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon";
@@ -629,6 +734,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "did you know pokemon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon";
@@ -688,6 +794,34 @@
 			};
 			name = Release;
 		};
+		EECCB5AA1CA786B6008131D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DidYouKnowForPokemonWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.DidYouKnowForPokemonWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EECCB5AB1CA786B6008131D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DidYouKnowForPokemonWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.DidYouKnowForPokemonWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -726,6 +860,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		EECCB5AC1CA786B6008131D4 /* Build configuration list for PBXNativeTarget "DidYouKnowForPokemonWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECCB5AA1CA786B6008131D4 /* Debug */,
+				EECCB5AB1CA786B6008131D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
