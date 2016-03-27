@@ -11,7 +11,14 @@ import UIKit
 class PkmnFacts: NSObject {
     var mainDictionary : NSDictionary {
         get {
-            let path = NSBundle.mainBundle().pathForResource("facts", ofType: "plist")
+            var fileName = "facts"
+            let pre = NSLocale.preferredLanguages()[0]
+            
+            if pre.containsString("es") {
+                fileName = "hechos"
+            }
+            
+            let path = NSBundle.mainBundle().pathForResource(fileName, ofType: "plist")
             let dict = NSDictionary(contentsOfFile: path!)!
             return dict
         }

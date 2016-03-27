@@ -54,14 +54,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func displayRateAlert() {
         dispatch_async(dispatch_get_main_queue(), {
-            let importantAlert: UIAlertController = UIAlertController(title: "", message: "Rank us", preferredStyle: .Alert)
+            let title : String = "★★★★★"
+            let message : String = NSLocalizedString("rate", comment: "")
+            let cancelTitle : String = NSLocalizedString("rate", comment: "")
             
-            let okAction : UIAlertAction = UIAlertAction(title: "Share", style: .Default, handler: { (UIAlertAction) in
+            let importantAlert: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: .Alert)
+            
+            let okAction : UIAlertAction = UIAlertAction(title: "Ok", style: .Default, handler: { (UIAlertAction) in
                 let appStoreUrl : NSURL = NSURL(string: PkmnCommons.appStoreUrl)!
                 UIApplication.sharedApplication().openURL(appStoreUrl)
             })
             
-            let cancelAction : UIAlertAction = UIAlertAction(title: "Nope", style: .Cancel, handler:nil)
+            let cancelAction : UIAlertAction = UIAlertAction(title: cancelTitle, style: .Cancel, handler:nil)
             
             importantAlert.addAction(okAction)
             importantAlert.addAction(cancelAction)
