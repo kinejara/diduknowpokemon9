@@ -12,7 +12,7 @@ import NotificationCenter
 class TodayViewController: UIViewController, NCWidgetProviding {
         
     @IBOutlet weak var todayLabel: UILabel!
-    
+    var facts : [String] = PkmnFacts().allFacts.shuffle()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,15 +28,13 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         return UIEdgeInsetsZero
     }
     
+    
     func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)) {
-        /*   UITapGestureRecognizer *singleFingerTap =
-         [[UITapGestureRecognizer alloc] initWithTarget:self
-         action:@selector(handleSingleTapinTextView:)];
-         [self.pokefactLabel addGestureRecognizer:singleFingerTap];
-         
-         */
+        self.preferredContentSize = CGSizeMake(0, 65);
+        
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(TodayViewController.handleSingleTapinTextView))
         
+        self.todayLabel.text = facts.first
         self.todayLabel.textAlignment = .Center
         self.todayLabel.font = UIFont(name: "pokemonGB", size: 14.0)
         self.todayLabel.userInteractionEnabled = true;
@@ -46,7 +44,10 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     }
     
     func handleSingleTapinTextView() {
-        
+        let url : NSURL = NSURL(string: "home://")!
+        self.extensionContext?.openURL(url, completionHandler: { (Bool) in
+            
+        })
     }
     
 }

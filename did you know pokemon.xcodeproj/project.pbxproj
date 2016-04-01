@@ -30,6 +30,10 @@
 		EECCB5AF1CA78CAE008131D4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECCB5AE1CA78CAE008131D4 /* MainInterface.storyboard */; };
 		EECCB5B11CA78DD6008131D4 /* pokeLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = EECCB5B01CA78DD6008131D4 /* pokeLabel.png */; };
 		EECCB5B31CA79610008131D4 /* PokemonGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EECCB5B21CA79610008131D4 /* PokemonGB.ttf */; };
+		EED7FEA11CAE1AC900930E84 /* PkmnFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD5CFF1C9F9E5900460B21 /* PkmnFacts.swift */; };
+		EED7FEA21CAE1B1600930E84 /* CollectionType+PKMN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E1B11CA23A14008BD6D1 /* CollectionType+PKMN.swift */; };
+		EED7FEA31CAE1BCA00930E84 /* facts.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FD5CFB1C9F9CBB00460B21 /* facts.plist */; };
+		EED7FEA41CAE1BCA00930E84 /* hechos.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FD5CFC1C9F9CBB00460B21 /* hechos.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -457,6 +461,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED7FEA31CAE1BCA00930E84 /* facts.plist in Resources */,
+				EED7FEA41CAE1BCA00930E84 /* hechos.plist in Resources */,
 				EECCB5AF1CA78CAE008131D4 /* MainInterface.storyboard in Resources */,
 				EECCB5B11CA78DD6008131D4 /* pokeLabel.png in Resources */,
 				EECCB5B31CA79610008131D4 /* PokemonGB.ttf in Resources */,
@@ -577,6 +583,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED7FEA21CAE1B1600930E84 /* CollectionType+PKMN.swift in Sources */,
+				EED7FEA11CAE1AC900930E84 /* PkmnFacts.swift in Sources */,
 				EECCB5A21CA786B6008131D4 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -868,6 +876,7 @@
 				EECCB5AB1CA786B6008131D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
