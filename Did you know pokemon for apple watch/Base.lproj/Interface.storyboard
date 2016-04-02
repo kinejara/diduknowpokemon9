@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="PokemonGB.ttf">
+            <string>PokemonGB</string>
+            <string>PokemonGB</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Did_you_know_pokemon_for_apple_watch" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="r84-WP-XRM">
+                            <items>
+                                <tableRow identifier="factsCell" id="LFt-Mo-Zf0" customClass="FactRow" customModule="Did_you_know_pokemon_for_apple_watch_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="M0B-fL-0Hw">
+                                        <items>
+                                            <label width="1" alignment="center" verticalAlignment="bottom" text="facts" textAlignment="center" baselineAdjustment="alignCenters" numberOfLines="0" id="W14-gx-A6q">
+                                                <fontDescription key="font" name="PokemonGB" family="Pokemon GB" pointSize="8"/>
+                                            </label>
+                                        </items>
+                                        <edgeInsets key="margins" left="10" right="10" top="11" bottom="10"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="factLabel" destination="W14-gx-A6q" id="3Sd-yg-M00"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="factsTable" destination="r84-WP-XRM" id="QQT-BL-YxW"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="164" y="221"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="rjY-Ar-IMT">
+            <objects>
+                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="Did_you_know_pokemon_for_apple_watch" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="gv7-I2-MZq">
+                            <items>
+                                <label width="1" height="1" alignment="left" text="Label" id="hPZ-GD-C2p"/>
+                            </items>
+                            <edgeInsets key="margins" left="10" right="0.0" top="1" bottom="0.0"/>
+                        </group>
+                        <group alignment="left" id="eew-Gs-W6Y">
+                            <items>
+                                <label width="1" height="1" alignment="left" text="Label" numberOfLines="0" id="BzF-JO-qi6">
+                                    <fontDescription key="font" name="PokemonGB" family="Pokemon GB" pointSize="10"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="10" right="10" top="0.0" bottom="10"/>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="headerLabel" destination="hPZ-GD-C2p" id="mwb-Ql-mSz"/>
+                        <outlet property="mainLabel" destination="BzF-JO-qi6" id="p7R-cr-BIh"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="164" y="514"/>
+        </scene>
+    </scenes>
+</document>

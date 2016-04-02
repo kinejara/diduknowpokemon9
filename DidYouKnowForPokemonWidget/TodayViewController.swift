@@ -28,7 +28,6 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         return UIEdgeInsetsZero
     }
     
-    
     func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)) {
         self.preferredContentSize = CGSizeMake(0, 65);
         

@@ -22,6 +22,22 @@
 		B4FD5CFD1C9F9CBB00460B21 /* facts.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FD5CFB1C9F9CBB00460B21 /* facts.plist */; };
 		B4FD5CFE1C9F9CBB00460B21 /* hechos.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FD5CFC1C9F9CBB00460B21 /* hechos.plist */; };
 		B4FD5D001C9F9E5900460B21 /* PkmnFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD5CFF1C9F9E5900460B21 /* PkmnFacts.swift */; };
+		EE0E086F1CAF4CBF00089BD0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0E086D1CAF4CBF00089BD0 /* Interface.storyboard */; };
+		EE0E08711CAF4CBF00089BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0E08701CAF4CBF00089BD0 /* Assets.xcassets */; };
+		EE0E08781CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EE0E08771CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EE0E087D1CAF4CBF00089BD0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0E087C1CAF4CBF00089BD0 /* InterfaceController.swift */; };
+		EE0E087F1CAF4CBF00089BD0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0E087E1CAF4CBF00089BD0 /* ExtensionDelegate.swift */; };
+		EE0E08811CAF4CBF00089BD0 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0E08801CAF4CBF00089BD0 /* GlanceController.swift */; };
+		EE0E08831CAF4CBF00089BD0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0E08821CAF4CBF00089BD0 /* ComplicationController.swift */; };
+		EE0E08851CAF4CBF00089BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0E08841CAF4CBF00089BD0 /* Assets.xcassets */; };
+		EE0E08891CAF4CBF00089BD0 /* Did you know pokemon for apple watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EE0E086B1CAF4CBF00089BD0 /* Did you know pokemon for apple watch.app */; };
+		EE0E08931CAF4DB500089BD0 /* CollectionType+PKMN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E1B11CA23A14008BD6D1 /* CollectionType+PKMN.swift */; };
+		EE0E08941CAF4DBC00089BD0 /* PkmnFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD5CFF1C9F9E5900460B21 /* PkmnFacts.swift */; };
+		EE0E08951CAF4ED200089BD0 /* PokemonGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4047E761C95F4AA00DDFFE1 /* PokemonGB.ttf */; };
+		EE0E08961CAF510600089BD0 /* facts.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FD5CFB1C9F9CBB00460B21 /* facts.plist */; };
+		EE0E08971CAF510900089BD0 /* hechos.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FD5CFC1C9F9CBB00460B21 /* hechos.plist */; };
+		EE0E08991CAF59A000089BD0 /* FactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0E08981CAF59A000089BD0 /* FactRow.swift */; };
+		EE0E089A1CAF64C000089BD0 /* PokemonGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4047E761C95F4AA00DDFFE1 /* PokemonGB.ttf */; };
 		EE49291C1CA77AB0009CA204 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE49291E1CA77AB0009CA204 /* Localizable.strings */; };
 		EE4929241CA78257009CA204 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4929221CA78257009CA204 /* LaunchScreen.xib */; };
 		EECCB59F1CA786B6008131D4 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECCB59E1CA786B6008131D4 /* NotificationCenter.framework */; };
@@ -51,6 +67,20 @@
 			remoteGlobalIDString = B413FD721C87888400597025;
 			remoteInfo = "did you know pokemon";
 		};
+		EE0E08791CAF4CBF00089BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B413FD6B1C87888400597025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0E08761CAF4CBF00089BD0;
+			remoteInfo = "Did you know pokemon for apple watch Extension";
+		};
+		EE0E08871CAF4CBF00089BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B413FD6B1C87888400597025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0E086A1CAF4CBF00089BD0;
+			remoteInfo = "Did you know pokemon for apple watch";
+		};
 		EECCB5A71CA786B6008131D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B413FD6B1C87888400597025 /* Project object */;
@@ -61,6 +91,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		EE0E088F1CAF4CC000089BD0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EE0E08781CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0E08911CAF4CC000089BD0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EE0E08891CAF4CBF00089BD0 /* Did you know pokemon for apple watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EECCB5AD1CA786B6008131D4 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +155,18 @@
 		B4FD5CFC1C9F9CBB00460B21 /* hechos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = hechos.plist; sourceTree = "<group>"; };
 		B4FD5CFF1C9F9E5900460B21 /* PkmnFacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PkmnFacts.swift; sourceTree = "<group>"; };
 		C34D52A63009E2CF93497CDB /* libPods-did you know pokemonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-did you know pokemonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0E086B1CAF4CBF00089BD0 /* Did you know pokemon for apple watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Did you know pokemon for apple watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0E086E1CAF4CBF00089BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EE0E08701CAF4CBF00089BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0E08721CAF4CBF00089BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0E08771CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Did you know pokemon for apple watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0E087C1CAF4CBF00089BD0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EE0E087E1CAF4CBF00089BD0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EE0E08801CAF4CBF00089BD0 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		EE0E08821CAF4CBF00089BD0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		EE0E08841CAF4CBF00089BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0E08861CAF4CBF00089BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0E08981CAF59A000089BD0 /* FactRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactRow.swift; sourceTree = "<group>"; };
 		EE49291B1CA77AA2009CA204 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		EE49291D1CA77AB0009CA204 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EE4929211CA77AC1009CA204 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -137,6 +201,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				577FB1F6A601B021F1B63FA9 /* libPods-did you know pokemonUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0E08741CAF4CBF00089BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +254,8 @@
 				B413FD8A1C87888400597025 /* did you know pokemonTests */,
 				B413FD951C87888400597025 /* did you know pokemonUITests */,
 				EECCB5A01CA786B6008131D4 /* DidYouKnowForPokemonWidget */,
+				EE0E086C1CAF4CBF00089BD0 /* Did you know pokemon for apple watch */,
+				EE0E087B1CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension */,
 				B413FD741C87888400597025 /* Products */,
 				898345D43B73023F502E54E7 /* Pods */,
 				8987C721FD2E7CDAFE811DB5 /* Frameworks */,
@@ -196,6 +269,8 @@
 				B413FD871C87888400597025 /* did you know pokemonTests.xctest */,
 				B413FD921C87888400597025 /* did you know pokemonUITests.xctest */,
 				EECCB59D1CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex */,
+				EE0E086B1CAF4CBF00089BD0 /* Did you know pokemon for apple watch.app */,
+				EE0E08771CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,11 +328,11 @@
 		B4B66A341C928D840082A9B6 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				B413FD761C87888400597025 /* AppDelegate.swift */,
 				B4F5E1B31CA23A3F008BD6D1 /* models */,
 				B4F5E1AE1CA22CC6008BD6D1 /* commons */,
 				B4FD5CF81C9F97F400460B21 /* extensions */,
 				B4FA554F1C878AE900175F97 /* PokedexViewController.swift */,
+				B413FD761C87888400597025 /* AppDelegate.swift */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -287,6 +362,30 @@
 			name = extensions;
 			sourceTree = "<group>";
 		};
+		EE0E086C1CAF4CBF00089BD0 /* Did you know pokemon for apple watch */ = {
+			isa = PBXGroup;
+			children = (
+				EE0E086D1CAF4CBF00089BD0 /* Interface.storyboard */,
+				EE0E08701CAF4CBF00089BD0 /* Assets.xcassets */,
+				EE0E08721CAF4CBF00089BD0 /* Info.plist */,
+			);
+			path = "Did you know pokemon for apple watch";
+			sourceTree = "<group>";
+		};
+		EE0E087B1CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EE0E087C1CAF4CBF00089BD0 /* InterfaceController.swift */,
+				EE0E087E1CAF4CBF00089BD0 /* ExtensionDelegate.swift */,
+				EE0E08801CAF4CBF00089BD0 /* GlanceController.swift */,
+				EE0E08821CAF4CBF00089BD0 /* ComplicationController.swift */,
+				EE0E08841CAF4CBF00089BD0 /* Assets.xcassets */,
+				EE0E08861CAF4CBF00089BD0 /* Info.plist */,
+				EE0E08981CAF59A000089BD0 /* FactRow.swift */,
+			);
+			path = "Did you know pokemon for apple watch Extension";
+			sourceTree = "<group>";
+		};
 		EECCB5A01CA786B6008131D4 /* DidYouKnowForPokemonWidget */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,11 +409,13 @@
 				B413FD701C87888400597025 /* Frameworks */,
 				B413FD711C87888400597025 /* Resources */,
 				EECCB5AD1CA786B6008131D4 /* Embed App Extensions */,
+				EE0E08911CAF4CC000089BD0 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				EECCB5A81CA786B6008131D4 /* PBXTargetDependency */,
+				EE0E08881CAF4CBF00089BD0 /* PBXTargetDependency */,
 			);
 			name = "did you know pokemon";
 			productName = "did you know pokemon";
@@ -362,6 +463,40 @@
 			productReference = B413FD921C87888400597025 /* did you know pokemonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		EE0E086A1CAF4CBF00089BD0 /* Did you know pokemon for apple watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0E08901CAF4CC000089BD0 /* Build configuration list for PBXNativeTarget "Did you know pokemon for apple watch" */;
+			buildPhases = (
+				EE0E08691CAF4CBF00089BD0 /* Resources */,
+				EE0E088F1CAF4CC000089BD0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE0E087A1CAF4CBF00089BD0 /* PBXTargetDependency */,
+			);
+			name = "Did you know pokemon for apple watch";
+			productName = "Did you know pokemon for apple watch";
+			productReference = EE0E086B1CAF4CBF00089BD0 /* Did you know pokemon for apple watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EE0E08761CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0E088E1CAF4CC000089BD0 /* Build configuration list for PBXNativeTarget "Did you know pokemon for apple watch Extension" */;
+			buildPhases = (
+				EE0E08731CAF4CBF00089BD0 /* Sources */,
+				EE0E08741CAF4CBF00089BD0 /* Frameworks */,
+				EE0E08751CAF4CBF00089BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Did you know pokemon for apple watch Extension";
+			productName = "Did you know pokemon for apple watch Extension";
+			productReference = EE0E08771CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		EECCB59C1CA786B6008131D4 /* DidYouKnowForPokemonWidget */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EECCB5AC1CA786B6008131D4 /* Build configuration list for PBXNativeTarget "DidYouKnowForPokemonWidget" */;
@@ -401,6 +536,13 @@
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = B413FD721C87888400597025;
 					};
+					EE0E086A1CAF4CBF00089BD0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WFBNVJ2MHG;
+					};
+					EE0E08761CAF4CBF00089BD0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					EECCB59C1CA786B6008131D4 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = WFBNVJ2MHG;
@@ -424,6 +566,8 @@
 				B413FD861C87888400597025 /* did you know pokemonTests */,
 				B413FD911C87888400597025 /* did you know pokemonUITests */,
 				EECCB59C1CA786B6008131D4 /* DidYouKnowForPokemonWidget */,
+				EE0E086A1CAF4CBF00089BD0 /* Did you know pokemon for apple watch */,
+				EE0E08761CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -454,6 +598,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0E08691CAF4CBF00089BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0E08711CAF4CBF00089BD0 /* Assets.xcassets in Resources */,
+				EE0E086F1CAF4CBF00089BD0 /* Interface.storyboard in Resources */,
+				EE0E089A1CAF64C000089BD0 /* PokemonGB.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0E08751CAF4CBF00089BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0E08971CAF510900089BD0 /* hechos.plist in Resources */,
+				EE0E08851CAF4CBF00089BD0 /* Assets.xcassets in Resources */,
+				EE0E08961CAF510600089BD0 /* facts.plist in Resources */,
+				EE0E08951CAF4ED200089BD0 /* PokemonGB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +744,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE0E08731CAF4CBF00089BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0E087F1CAF4CBF00089BD0 /* ExtensionDelegate.swift in Sources */,
+				EE0E08991CAF59A000089BD0 /* FactRow.swift in Sources */,
+				EE0E08831CAF4CBF00089BD0 /* ComplicationController.swift in Sources */,
+				EE0E087D1CAF4CBF00089BD0 /* InterfaceController.swift in Sources */,
+				EE0E08941CAF4DBC00089BD0 /* PkmnFacts.swift in Sources */,
+				EE0E08931CAF4DB500089BD0 /* CollectionType+PKMN.swift in Sources */,
+				EE0E08811CAF4CBF00089BD0 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EECCB5991CA786B6008131D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -602,6 +781,16 @@
 			target = B413FD721C87888400597025 /* did you know pokemon */;
 			targetProxy = B413FD931C87888400597025 /* PBXContainerItemProxy */;
 		};
+		EE0E087A1CAF4CBF00089BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0E08761CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension */;
+			targetProxy = EE0E08791CAF4CBF00089BD0 /* PBXContainerItemProxy */;
+		};
+		EE0E08881CAF4CBF00089BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0E086A1CAF4CBF00089BD0 /* Did you know pokemon for apple watch */;
+			targetProxy = EE0E08871CAF4CBF00089BD0 /* PBXContainerItemProxy */;
+		};
 		EECCB5A81CA786B6008131D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EECCB59C1CA786B6008131D4 /* DidYouKnowForPokemonWidget */;
@@ -617,6 +806,14 @@
 				EE49291B1CA77AA2009CA204 /* es */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE0E086D1CAF4CBF00089BD0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0E086E1CAF4CBF00089BD0 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 		EE49291E1CA77AB0009CA204 /* Localizable.strings */ = {
@@ -802,6 +999,74 @@
 			};
 			name = Release;
 		};
+		EE0E088A1CAF4CC000089BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Did_you_know_pokemon_for_apple_watch_Extension;
+				INFOPLIST_FILE = "Did you know pokemon for apple watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		EE0E088B1CAF4CC000089BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Did_you_know_pokemon_for_apple_watch_Extension;
+				INFOPLIST_FILE = "Did you know pokemon for apple watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		EE0E088C1CAF4CC000089BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "Did you know pokemon for apple watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		EE0E088D1CAF4CC000089BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "Did you know pokemon for apple watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		EECCB5AA1CA786B6008131D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -868,6 +1133,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		EE0E088E1CAF4CC000089BD0 /* Build configuration list for PBXNativeTarget "Did you know pokemon for apple watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0E088C1CAF4CC000089BD0 /* Debug */,
+				EE0E088D1CAF4CC000089BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE0E08901CAF4CC000089BD0 /* Build configuration list for PBXNativeTarget "Did you know pokemon for apple watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0E088A1CAF4CC000089BD0 /* Debug */,
+				EE0E088B1CAF4CC000089BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		EECCB5AC1CA786B6008131D4 /* Build configuration list for PBXNativeTarget "DidYouKnowForPokemonWidget" */ = {
 			isa = XCConfigurationList;
