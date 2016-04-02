@@ -39,7 +39,6 @@
 		EE0E08991CAF59A000089BD0 /* FactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0E08981CAF59A000089BD0 /* FactRow.swift */; };
 		EE0E089A1CAF64C000089BD0 /* PokemonGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4047E761C95F4AA00DDFFE1 /* PokemonGB.ttf */; };
 		EE49291C1CA77AB0009CA204 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE49291E1CA77AB0009CA204 /* Localizable.strings */; };
-		EE4929241CA78257009CA204 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4929221CA78257009CA204 /* LaunchScreen.xib */; };
 		EECCB59F1CA786B6008131D4 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECCB59E1CA786B6008131D4 /* NotificationCenter.framework */; };
 		EECCB5A21CA786B6008131D4 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCB5A11CA786B6008131D4 /* TodayViewController.swift */; };
 		EECCB5A91CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EECCB59D1CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -147,6 +146,9 @@
 		B413FD921C87888400597025 /* did you know pokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "did you know pokemonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B413FD961C87888400597025 /* did_you_know_pokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = did_you_know_pokemonUITests.swift; sourceTree = "<group>"; };
 		B413FD981C87888400597025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42667861CAF8779004B3872 /* did you know pokemon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "did you know pokemon.entitlements"; sourceTree = "<group>"; };
+		B42667871CAF8939004B3872 /* Did you know pokemon for apple watch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Did you know pokemon for apple watch.entitlements"; sourceTree = "<group>"; };
+		B42667881CAF8A97004B3872 /* Did you know pokemon for apple watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Did you know pokemon for apple watch Extension.entitlements"; sourceTree = "<group>"; };
 		B4F5E1AF1CA22CF8008BD6D1 /* PkmnCommons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PkmnCommons.swift; sourceTree = "<group>"; };
 		B4F5E1B11CA23A14008BD6D1 /* CollectionType+PKMN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionType+PKMN.swift"; sourceTree = "<group>"; };
 		B4FA554F1C878AE900175F97 /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
@@ -170,7 +172,6 @@
 		EE49291B1CA77AA2009CA204 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		EE49291D1CA77AB0009CA204 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EE4929211CA77AC1009CA204 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		EE4929231CA78257009CA204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Downloads/diduknowforpkmn-lite-develop/DidYouKnowForPokemon8/Base.lproj/LaunchScreen.xib"; sourceTree = "<group>"; };
 		EECCB59D1CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DidYouKnowForPokemonWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECCB59E1CA786B6008131D4 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		EECCB5A11CA786B6008131D4 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -278,6 +279,7 @@
 		B413FD751C87888400597025 /* did you know pokemon */ = {
 			isa = PBXGroup;
 			children = (
+				B42667861CAF8779004B3872 /* did you know pokemon.entitlements */,
 				B4B66A341C928D840082A9B6 /* classes */,
 				B4B66A321C928D620082A9B6 /* storyboards */,
 			);
@@ -305,7 +307,6 @@
 		B4B66A321C928D620082A9B6 /* storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				EE4929221CA78257009CA204 /* LaunchScreen.xib */,
 				B413FD7A1C87888400597025 /* Main.storyboard */,
 			);
 			name = storyboards;
@@ -365,6 +366,7 @@
 		EE0E086C1CAF4CBF00089BD0 /* Did you know pokemon for apple watch */ = {
 			isa = PBXGroup;
 			children = (
+				B42667871CAF8939004B3872 /* Did you know pokemon for apple watch.entitlements */,
 				EE0E086D1CAF4CBF00089BD0 /* Interface.storyboard */,
 				EE0E08701CAF4CBF00089BD0 /* Assets.xcassets */,
 				EE0E08721CAF4CBF00089BD0 /* Info.plist */,
@@ -375,6 +377,7 @@
 		EE0E087B1CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B42667881CAF8A97004B3872 /* Did you know pokemon for apple watch Extension.entitlements */,
 				EE0E087C1CAF4CBF00089BD0 /* InterfaceController.swift */,
 				EE0E087E1CAF4CBF00089BD0 /* ExtensionDelegate.swift */,
 				EE0E08801CAF4CBF00089BD0 /* GlanceController.swift */,
@@ -527,6 +530,11 @@
 					B413FD721C87888400597025 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = WFBNVJ2MHG;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					B413FD861C87888400597025 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -539,9 +547,20 @@
 					EE0E086A1CAF4CBF00089BD0 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = WFBNVJ2MHG;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EE0E08761CAF4CBF00089BD0 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WFBNVJ2MHG;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EECCB59C1CA786B6008131D4 = {
 						CreatedOnToolsVersion = 7.3;
@@ -580,7 +599,6 @@
 				B4FD5CFD1C9F9CBB00460B21 /* facts.plist in Resources */,
 				B4FD5CFE1C9F9CBB00460B21 /* hechos.plist in Resources */,
 				EE49291C1CA77AB0009CA204 /* Localizable.strings in Resources */,
-				EE4929241CA78257009CA204 /* LaunchScreen.xib in Resources */,
 				B413FD7E1C87888400597025 /* Assets.xcassets in Resources */,
 				B413FD7C1C87888400597025 /* Main.storyboard in Resources */,
 				B4047E771C95F4AA00DDFFE1 /* PokemonGB.ttf in Resources */,
@@ -825,14 +843,6 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		EE4929221CA78257009CA204 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE4929231CA78257009CA204 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -853,6 +863,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -898,6 +909,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -924,6 +936,7 @@
 			baseConfigurationReference = 36C72D97E47177889DE26BD3 /* Pods-did you know pokemon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "did you know pokemon/did you know pokemon.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "did you know pokemon/Info.plist";
@@ -938,6 +951,7 @@
 			baseConfigurationReference = 9928204182B285FF6F84F6D5 /* Pods-did you know pokemon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "did you know pokemon/did you know pokemon.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "did you know pokemon/Info.plist";
@@ -1004,16 +1018,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = "Did you know pokemon for apple watch/Did you know pokemon for apple watch.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Did_you_know_pokemon_for_apple_watch_Extension;
 				INFOPLIST_FILE = "Did you know pokemon for apple watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ae40e509-dbfd-4d23-b68c-dfd8b878c182";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -1022,16 +1039,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = "Did you know pokemon for apple watch/Did you know pokemon for apple watch.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Did_you_know_pokemon_for_apple_watch_Extension;
 				INFOPLIST_FILE = "Did you know pokemon for apple watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ae40e509-dbfd-4d23-b68c-dfd8b878c182";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1040,10 +1060,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_ENTITLEMENTS = "Did you know pokemon for apple watch Extension/Did you know pokemon for apple watch Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Did you know pokemon for apple watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watch.extension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "8e8cb821-8bb5-46ae-a989-a5573ed56dfe";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1056,10 +1080,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_ENTITLEMENTS = "Did you know pokemon for apple watch Extension/Did you know pokemon for apple watch Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Did you know pokemon for apple watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watch.extension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "8e8cb821-8bb5-46ae-a989-a5573ed56dfe";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1078,6 +1106,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.DidYouKnowForPokemonWidget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -1092,6 +1121,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.DidYouKnowForPokemonWidget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1141,6 +1171,7 @@
 				EE0E088D1CAF4CC000089BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE0E08901CAF4CC000089BD0 /* Build configuration list for PBXNativeTarget "Did you know pokemon for apple watch" */ = {
 			isa = XCConfigurationList;
@@ -1149,6 +1180,7 @@
 				EE0E088B1CAF4CC000089BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EECCB5AC1CA786B6008131D4 /* Build configuration list for PBXNativeTarget "DidYouKnowForPokemonWidget" */ = {
 			isa = XCConfigurationList;
