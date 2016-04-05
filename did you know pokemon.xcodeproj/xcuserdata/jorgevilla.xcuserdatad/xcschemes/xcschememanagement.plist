@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Did you know pokemon for apple watch (Glance).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Did you know pokemon for apple watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>DidYouKnowForPokemonWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>did you know pokemon on TV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>did you know pokemon.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +43,21 @@
 			<true/>
 		</dict>
 		<key>B413FD911C87888400597025</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B43AB7D21CB37FB900642FF2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B43AB7E21CB37FB900642FF2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B43AB7ED1CB37FB900642FF2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

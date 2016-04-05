@@ -16,6 +16,12 @@
 		B413FD8C1C87888400597025 /* did_you_know_pokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413FD8B1C87888400597025 /* did_you_know_pokemonTests.swift */; };
 		B413FD971C87888400597025 /* did_you_know_pokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413FD961C87888400597025 /* did_you_know_pokemonUITests.swift */; };
 		B418523E1CB1838D0007E3B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B418523D1CB1838D0007E3B7 /* LaunchScreen.xib */; };
+		B43AB7D61CB37FB900642FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AB7D51CB37FB900642FF2 /* AppDelegate.swift */; };
+		B43AB7D81CB37FB900642FF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AB7D71CB37FB900642FF2 /* ViewController.swift */; };
+		B43AB7DB1CB37FB900642FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43AB7D91CB37FB900642FF2 /* Main.storyboard */; };
+		B43AB7DD1CB37FB900642FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43AB7DC1CB37FB900642FF2 /* Assets.xcassets */; };
+		B43AB7E81CB37FB900642FF2 /* did_you_know_pokemon_on_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AB7E71CB37FB900642FF2 /* did_you_know_pokemon_on_TVTests.swift */; };
+		B43AB7F31CB37FB900642FF2 /* did_you_know_pokemon_on_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AB7F21CB37FB900642FF2 /* did_you_know_pokemon_on_TVUITests.swift */; };
 		B4F5E1B01CA22CF8008BD6D1 /* PkmnCommons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E1AF1CA22CF8008BD6D1 /* PkmnCommons.swift */; };
 		B4F5E1B21CA23A14008BD6D1 /* CollectionType+PKMN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E1B11CA23A14008BD6D1 /* CollectionType+PKMN.swift */; };
 		B4FA55501C878AE900175F97 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA554F1C878AE900175F97 /* PokedexViewController.swift */; };
@@ -66,6 +72,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = B413FD721C87888400597025;
 			remoteInfo = "did you know pokemon";
+		};
+		B43AB7E41CB37FB900642FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B413FD6B1C87888400597025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43AB7D21CB37FB900642FF2;
+			remoteInfo = "did you know pokemon on TV";
+		};
+		B43AB7EF1CB37FB900642FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B413FD6B1C87888400597025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43AB7D21CB37FB900642FF2;
+			remoteInfo = "did you know pokemon on TV";
 		};
 		EE0E08791CAF4CBF00089BD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -151,6 +171,18 @@
 		B42667861CAF8779004B3872 /* did you know pokemon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "did you know pokemon.entitlements"; sourceTree = "<group>"; };
 		B42667871CAF8939004B3872 /* Did you know pokemon for apple watch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Did you know pokemon for apple watch.entitlements"; sourceTree = "<group>"; };
 		B42667881CAF8A97004B3872 /* Did you know pokemon for apple watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Did you know pokemon for apple watch Extension.entitlements"; sourceTree = "<group>"; };
+		B43AB7D31CB37FB900642FF2 /* did you know pokemon on TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "did you know pokemon on TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43AB7D51CB37FB900642FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B43AB7D71CB37FB900642FF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B43AB7DA1CB37FB900642FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B43AB7DC1CB37FB900642FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B43AB7DE1CB37FB900642FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43AB7E31CB37FB900642FF2 /* did you know pokemon on TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "did you know pokemon on TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43AB7E71CB37FB900642FF2 /* did_you_know_pokemon_on_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = did_you_know_pokemon_on_TVTests.swift; sourceTree = "<group>"; };
+		B43AB7E91CB37FB900642FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43AB7EE1CB37FB900642FF2 /* did you know pokemon on TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "did you know pokemon on TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43AB7F21CB37FB900642FF2 /* did_you_know_pokemon_on_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = did_you_know_pokemon_on_TVUITests.swift; sourceTree = "<group>"; };
+		B43AB7F41CB37FB900642FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F5E1AF1CA22CF8008BD6D1 /* PkmnCommons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PkmnCommons.swift; sourceTree = "<group>"; };
 		B4F5E1B11CA23A14008BD6D1 /* CollectionType+PKMN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionType+PKMN.swift"; sourceTree = "<group>"; };
 		B4FA554F1C878AE900175F97 /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
@@ -207,6 +239,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B43AB7D01CB37FB900642FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AB7E01CB37FB900642FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AB7EB1CB37FB900642FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE0E08741CAF4CBF00089BD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,6 +312,9 @@
 				EECCB5A01CA786B6008131D4 /* DidYouKnowForPokemonWidget */,
 				EE0E086C1CAF4CBF00089BD0 /* Did you know pokemon for apple watch */,
 				EE0E087B1CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension */,
+				B43AB7D41CB37FB900642FF2 /* did you know pokemon on TV */,
+				B43AB7E61CB37FB900642FF2 /* did you know pokemon on TVTests */,
+				B43AB7F11CB37FB900642FF2 /* did you know pokemon on TVUITests */,
 				B413FD741C87888400597025 /* Products */,
 				898345D43B73023F502E54E7 /* Pods */,
 				8987C721FD2E7CDAFE811DB5 /* Frameworks */,
@@ -274,6 +330,9 @@
 				EECCB59D1CA786B6008131D4 /* DidYouKnowForPokemonWidget.appex */,
 				EE0E086B1CAF4CBF00089BD0 /* Did you know pokemon for apple watch.app */,
 				EE0E08771CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension.appex */,
+				B43AB7D31CB37FB900642FF2 /* did you know pokemon on TV.app */,
+				B43AB7E31CB37FB900642FF2 /* did you know pokemon on TVTests.xctest */,
+				B43AB7EE1CB37FB900642FF2 /* did you know pokemon on TVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -304,6 +363,36 @@
 				B413FD981C87888400597025 /* Info.plist */,
 			);
 			path = "did you know pokemonUITests";
+			sourceTree = "<group>";
+		};
+		B43AB7D41CB37FB900642FF2 /* did you know pokemon on TV */ = {
+			isa = PBXGroup;
+			children = (
+				B43AB7D51CB37FB900642FF2 /* AppDelegate.swift */,
+				B43AB7D71CB37FB900642FF2 /* ViewController.swift */,
+				B43AB7D91CB37FB900642FF2 /* Main.storyboard */,
+				B43AB7DC1CB37FB900642FF2 /* Assets.xcassets */,
+				B43AB7DE1CB37FB900642FF2 /* Info.plist */,
+			);
+			path = "did you know pokemon on TV";
+			sourceTree = "<group>";
+		};
+		B43AB7E61CB37FB900642FF2 /* did you know pokemon on TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				B43AB7E71CB37FB900642FF2 /* did_you_know_pokemon_on_TVTests.swift */,
+				B43AB7E91CB37FB900642FF2 /* Info.plist */,
+			);
+			path = "did you know pokemon on TVTests";
+			sourceTree = "<group>";
+		};
+		B43AB7F11CB37FB900642FF2 /* did you know pokemon on TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B43AB7F21CB37FB900642FF2 /* did_you_know_pokemon_on_TVUITests.swift */,
+				B43AB7F41CB37FB900642FF2 /* Info.plist */,
+			);
+			path = "did you know pokemon on TVUITests";
 			sourceTree = "<group>";
 		};
 		B4B66A321C928D620082A9B6 /* storyboards */ = {
@@ -469,6 +558,59 @@
 			productReference = B413FD921C87888400597025 /* did you know pokemonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B43AB7D21CB37FB900642FF2 /* did you know pokemon on TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43AB7FB1CB37FB900642FF2 /* Build configuration list for PBXNativeTarget "did you know pokemon on TV" */;
+			buildPhases = (
+				B43AB7CF1CB37FB900642FF2 /* Sources */,
+				B43AB7D01CB37FB900642FF2 /* Frameworks */,
+				B43AB7D11CB37FB900642FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "did you know pokemon on TV";
+			productName = "did you know pokemon on TV";
+			productReference = B43AB7D31CB37FB900642FF2 /* did you know pokemon on TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B43AB7E21CB37FB900642FF2 /* did you know pokemon on TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43AB7FC1CB37FB900642FF2 /* Build configuration list for PBXNativeTarget "did you know pokemon on TVTests" */;
+			buildPhases = (
+				B43AB7DF1CB37FB900642FF2 /* Sources */,
+				B43AB7E01CB37FB900642FF2 /* Frameworks */,
+				B43AB7E11CB37FB900642FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43AB7E51CB37FB900642FF2 /* PBXTargetDependency */,
+			);
+			name = "did you know pokemon on TVTests";
+			productName = "did you know pokemon on TVTests";
+			productReference = B43AB7E31CB37FB900642FF2 /* did you know pokemon on TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B43AB7ED1CB37FB900642FF2 /* did you know pokemon on TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43AB7FD1CB37FB900642FF2 /* Build configuration list for PBXNativeTarget "did you know pokemon on TVUITests" */;
+			buildPhases = (
+				B43AB7EA1CB37FB900642FF2 /* Sources */,
+				B43AB7EB1CB37FB900642FF2 /* Frameworks */,
+				B43AB7EC1CB37FB900642FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43AB7F01CB37FB900642FF2 /* PBXTargetDependency */,
+			);
+			name = "did you know pokemon on TVUITests";
+			productName = "did you know pokemon on TVUITests";
+			productReference = B43AB7EE1CB37FB900642FF2 /* did you know pokemon on TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EE0E086A1CAF4CBF00089BD0 /* Did you know pokemon for apple watch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE0E08901CAF4CC000089BD0 /* Build configuration list for PBXNativeTarget "Did you know pokemon for apple watch" */;
@@ -547,6 +689,17 @@
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = B413FD721C87888400597025;
 					};
+					B43AB7D21CB37FB900642FF2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B43AB7E21CB37FB900642FF2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B43AB7D21CB37FB900642FF2;
+					};
+					B43AB7ED1CB37FB900642FF2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B43AB7D21CB37FB900642FF2;
+					};
 					EE0E086A1CAF4CBF00089BD0 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = WFBNVJ2MHG;
@@ -590,6 +743,9 @@
 				EECCB59C1CA786B6008131D4 /* DidYouKnowForPokemonWidget */,
 				EE0E086A1CAF4CBF00089BD0 /* Did you know pokemon for apple watch */,
 				EE0E08761CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension */,
+				B43AB7D21CB37FB900642FF2 /* did you know pokemon on TV */,
+				B43AB7E21CB37FB900642FF2 /* did you know pokemon on TVTests */,
+				B43AB7ED1CB37FB900642FF2 /* did you know pokemon on TVUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -617,6 +773,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B413FD901C87888400597025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AB7D11CB37FB900642FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43AB7DD1CB37FB900642FF2 /* Assets.xcassets in Resources */,
+				B43AB7DB1CB37FB900642FF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AB7E11CB37FB900642FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AB7EC1CB37FB900642FF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -766,6 +945,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B43AB7CF1CB37FB900642FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43AB7D81CB37FB900642FF2 /* ViewController.swift in Sources */,
+				B43AB7D61CB37FB900642FF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AB7DF1CB37FB900642FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43AB7E81CB37FB900642FF2 /* did_you_know_pokemon_on_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AB7EA1CB37FB900642FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43AB7F31CB37FB900642FF2 /* did_you_know_pokemon_on_TVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE0E08731CAF4CBF00089BD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -803,6 +1007,16 @@
 			target = B413FD721C87888400597025 /* did you know pokemon */;
 			targetProxy = B413FD931C87888400597025 /* PBXContainerItemProxy */;
 		};
+		B43AB7E51CB37FB900642FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43AB7D21CB37FB900642FF2 /* did you know pokemon on TV */;
+			targetProxy = B43AB7E41CB37FB900642FF2 /* PBXContainerItemProxy */;
+		};
+		B43AB7F01CB37FB900642FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43AB7D21CB37FB900642FF2 /* did you know pokemon on TV */;
+			targetProxy = B43AB7EF1CB37FB900642FF2 /* PBXContainerItemProxy */;
+		};
 		EE0E087A1CAF4CBF00089BD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EE0E08761CAF4CBF00089BD0 /* Did you know pokemon for apple watch Extension */;
@@ -826,6 +1040,14 @@
 			children = (
 				B413FD7B1C87888400597025 /* Base */,
 				EE49291B1CA77AA2009CA204 /* es */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B43AB7D91CB37FB900642FF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43AB7DA1CB37FB900642FF2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1023,6 +1245,96 @@
 			};
 			name = Release;
 		};
+		B43AB7F51CB37FB900642FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "did you know pokemon on TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-on-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		B43AB7F61CB37FB900642FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "did you know pokemon on TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-on-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		B43AB7F71CB37FB900642FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "did you know pokemon on TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-on-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/did you know pokemon on TV.app/did you know pokemon on TV";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		B43AB7F81CB37FB900642FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "did you know pokemon on TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-on-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/did you know pokemon on TV.app/did you know pokemon on TV";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		B43AB7F91CB37FB900642FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "did you know pokemon on TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-on-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_TARGET_NAME = "did you know pokemon on TV";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		B43AB7FA1CB37FB900642FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "did you know pokemon on TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-on-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_TARGET_NAME = "did you know pokemon on TV";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
 		EE0E088A1CAF4CC000089BD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1177,6 +1489,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B43AB7FB1CB37FB900642FF2 /* Build configuration list for PBXNativeTarget "did you know pokemon on TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43AB7F51CB37FB900642FF2 /* Debug */,
+				B43AB7F61CB37FB900642FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B43AB7FC1CB37FB900642FF2 /* Build configuration list for PBXNativeTarget "did you know pokemon on TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43AB7F71CB37FB900642FF2 /* Debug */,
+				B43AB7F81CB37FB900642FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B43AB7FD1CB37FB900642FF2 /* Build configuration list for PBXNativeTarget "did you know pokemon on TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43AB7F91CB37FB900642FF2 /* Debug */,
+				B43AB7FA1CB37FB900642FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		EE0E088E1CAF4CC000089BD0 /* Build configuration list for PBXNativeTarget "Did you know pokemon for apple watch Extension" */ = {
 			isa = XCConfigurationList;
