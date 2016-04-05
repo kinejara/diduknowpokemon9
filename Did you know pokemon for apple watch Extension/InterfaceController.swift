@@ -13,8 +13,7 @@ import Foundation
 class InterfaceController: WKInterfaceController {
     
     @IBOutlet weak var factsTable : WKInterfaceTable!
-    var facts : [String] = PkmnFacts().allFacts.shuffle()
-    
+    var facts : [String] = PkmnFacts().anime.shuffle()
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)

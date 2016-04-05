@@ -12,7 +12,7 @@ import Foundation
 
 class GlanceController: WKInterfaceController {
 
-    var facts : [String] = PkmnFacts().allFacts.shuffle()
+    var facts : [String] = PkmnFacts().anime.shuffle()
     @IBOutlet weak var mainLabel: WKInterfaceLabel!
     @IBOutlet weak var headerLabel: WKInterfaceLabel!
     
