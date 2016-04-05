@@ -22,6 +22,12 @@
 		B43AB7DD1CB37FB900642FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43AB7DC1CB37FB900642FF2 /* Assets.xcassets */; };
 		B43AB7E81CB37FB900642FF2 /* did_you_know_pokemon_on_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AB7E71CB37FB900642FF2 /* did_you_know_pokemon_on_TVTests.swift */; };
 		B43AB7F31CB37FB900642FF2 /* did_you_know_pokemon_on_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AB7F21CB37FB900642FF2 /* did_you_know_pokemon_on_TVUITests.swift */; };
+		B43AB7FE1CB3856A00642FF2 /* PkmnFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD5CFF1C9F9E5900460B21 /* PkmnFacts.swift */; };
+		B43AB7FF1CB3857B00642FF2 /* CollectionType+PKMN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E1B11CA23A14008BD6D1 /* CollectionType+PKMN.swift */; };
+		B43AB8001CB3858400642FF2 /* facts.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FD5CFB1C9F9CBB00460B21 /* facts.plist */; };
+		B43AB8011CB3858400642FF2 /* hechos.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FD5CFC1C9F9CBB00460B21 /* hechos.plist */; };
+		B43AB8021CB386BB00642FF2 /* PokemonGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4047E761C95F4AA00DDFFE1 /* PokemonGB.ttf */; };
+		B43AB8031CB3872D00642FF2 /* UIColor+PKMN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD5CF91C9F982600460B21 /* UIColor+PKMN.swift */; };
 		B4F5E1B01CA22CF8008BD6D1 /* PkmnCommons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E1AF1CA22CF8008BD6D1 /* PkmnCommons.swift */; };
 		B4F5E1B21CA23A14008BD6D1 /* CollectionType+PKMN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E1B11CA23A14008BD6D1 /* CollectionType+PKMN.swift */; };
 		B4FA55501C878AE900175F97 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA554F1C878AE900175F97 /* PokedexViewController.swift */; };
@@ -691,6 +697,7 @@
 					};
 					B43AB7D21CB37FB900642FF2 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WFBNVJ2MHG;
 					};
 					B43AB7E21CB37FB900642FF2 = {
 						CreatedOnToolsVersion = 7.3;
@@ -783,7 +790,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43AB8021CB386BB00642FF2 /* PokemonGB.ttf in Resources */,
+				B43AB8011CB3858400642FF2 /* hechos.plist in Resources */,
 				B43AB7DD1CB37FB900642FF2 /* Assets.xcassets in Resources */,
+				B43AB8001CB3858400642FF2 /* facts.plist in Resources */,
 				B43AB7DB1CB37FB900642FF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -949,8 +959,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43AB7FE1CB3856A00642FF2 /* PkmnFacts.swift in Sources */,
 				B43AB7D81CB37FB900642FF2 /* ViewController.swift in Sources */,
+				B43AB8031CB3872D00642FF2 /* UIColor+PKMN.swift in Sources */,
 				B43AB7D61CB37FB900642FF2 /* AppDelegate.swift in Sources */,
+				B43AB7FF1CB3857B00642FF2 /* CollectionType+PKMN.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1251,6 +1264,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "did you know pokemon on TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-on-TV";
@@ -1267,6 +1281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "did you know pokemon on TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-on-TV";

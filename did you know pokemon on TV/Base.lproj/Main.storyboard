@@ -1,25 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="6185.10" systemVersion="14A360a" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="NO" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="did_you_know_pokemon_on_TV" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tableHeader" translatesAutoresizingMaskIntoConstraints="NO" id="pwk-Ld-Zdg">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="YIp-S4-FW4"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tableFooter" translatesAutoresizingMaskIntoConstraints="NO" id="OKB-uj-awb">
+                                <rect key="frame" x="0.0" y="880" width="1920" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="i3y-nA-ILK"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="40" sectionFooterHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="CYK-Yd-A1F">
+                                <rect key="frame" x="0.0" y="200" width="1920" height="680"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="pokeCell" rowHeight="66" id="rU2-rb-6Ry">
+                                        <rect key="frame" x="0.0" y="54" width="1920" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rU2-rb-6Ry" id="6kw-en-3XF">
+                                            <rect key="frame" x="0.0" y="0.0" width="1904" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="jxA-Ic-ueX"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="d2H-mg-bgL"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CYK-Yd-A1F" secondAttribute="trailing" id="20p-SY-f5T"/>
+                            <constraint firstAttribute="trailing" secondItem="OKB-uj-awb" secondAttribute="trailing" id="4Au-Pv-OLf"/>
+                            <constraint firstItem="CYK-Yd-A1F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7lr-zZ-kcv"/>
+                            <constraint firstItem="pwk-Ld-Zdg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8iV-SL-YZp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OKB-uj-awb" secondAttribute="bottom" id="9TH-gb-Hax"/>
+                            <constraint firstItem="CYK-Yd-A1F" firstAttribute="top" secondItem="pwk-Ld-Zdg" secondAttribute="bottom" id="Ige-AL-NBA"/>
+                            <constraint firstAttribute="trailing" secondItem="pwk-Ld-Zdg" secondAttribute="trailing" id="Tsg-da-JtR"/>
+                            <constraint firstItem="OKB-uj-awb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bna-QW-Ef4"/>
+                            <constraint firstItem="pwk-Ld-Zdg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="nxv-8x-Qyo"/>
+                            <constraint firstItem="OKB-uj-awb" firstAttribute="top" secondItem="CYK-Yd-A1F" secondAttribute="bottom" id="pFH-ew-zwh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="CYK-Yd-A1F" id="iJF-MQ-qK3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="tableFooter" width="176" height="90"/>
+        <image name="tableHeader" width="176" height="90"/>
+    </resources>
 </document>
