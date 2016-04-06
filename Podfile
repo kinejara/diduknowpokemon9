@@ -4,7 +4,7 @@
 # use_frameworks!
 
 target 'did you know pokemon' do
-
+ pod 'Google-Mobile-Ads-SDK', '~> 7.0'
 end
 
 target 'did you know pokemonTests' do

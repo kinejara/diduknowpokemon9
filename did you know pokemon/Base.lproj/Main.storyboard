@@ -50,15 +50,25 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="BPq-xR-YwB"/>
                                 </connections>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csj-vw-Gio" customClass="GADBannerView">
+                                <rect key="frame" x="140" y="550" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="SYG-SU-0GD"/>
+                                    <constraint firstAttribute="height" constant="50" id="vVI-uS-PWl"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Lgb-rT-yQf" secondAttribute="trailing" id="9GU-5C-TbA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="csj-vw-Gio" secondAttribute="bottom" id="9n9-3e-4kX"/>
                             <constraint firstItem="2oq-Od-lCl" firstAttribute="top" secondItem="4F5-g4-UXQ" secondAttribute="bottom" id="ADz-KI-ham"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Lgb-rT-yQf" secondAttribute="bottom" id="CAc-7G-6dg"/>
                             <constraint firstItem="Lgb-rT-yQf" firstAttribute="top" secondItem="2oq-Od-lCl" secondAttribute="bottom" id="I64-lv-62V"/>
                             <constraint firstItem="Lgb-rT-yQf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VFx-61-A0I"/>
                             <constraint firstItem="4F5-g4-UXQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="X6t-3J-6Oa"/>
+                            <constraint firstItem="csj-vw-Gio" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bfy-Ls-sSj"/>
                             <constraint firstItem="4F5-g4-UXQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="h8v-M0-XvV"/>
                             <constraint firstItem="2oq-Od-lCl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sJ9-rg-st6"/>
                             <constraint firstAttribute="trailing" secondItem="2oq-Od-lCl" secondAttribute="trailing" id="why-b7-5Nz"/>
@@ -67,6 +77,7 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="2oq-Od-lCl" id="r6R-Dg-CL5"/>
+                        <outlet property="topBanner" destination="csj-vw-Gio" id="v4Z-mh-NLO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

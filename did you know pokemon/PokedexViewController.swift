@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
-class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, GADInterstitialDelegate, GADBannerViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet var topBanner : GADBannerView!
+    var interstitial : GADInterstitial!
     var facts : [String] = PkmnFacts().allFacts
     let cellId = "pokeCell"
     
@@ -20,6 +23,34 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         self.tableView.backgroundColor = UIColor.appBackgroundColor()
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: self.cellId)
+        
+        //self.loadInterstitial()
+        self.loadTopBanner()
+    }
+    
+    func loadTopBanner() {
+        let request : GADRequest = GADRequest()
+        //request.testDevices = ["ec71c4da41885827d9666c7fb42b8ad8"]
+        
+        self.topBanner.adUnitID = "ca-app-pub-5770021040900540/8342016118"
+        self.topBanner.rootViewController = self
+        self.topBanner.loadRequest(request)
+    }
+    
+    //MARK: ad video delegates
+    func loadInterstitial() {
+        let request : GADRequest = GADRequest()
+        //request.testDevices = ["ec71c4da41885827d9666c7fb42b8ad8"]
+        
+        self.interstitial = GADInterstitial(adUnitID: "ca-app-pub-5770021040900540/3412288914")
+        self.interstitial.delegate = self
+        self.interstitial.loadRequest(request)
+    }
+    
+    func interstitialDidFailToReceiveAdWithError (
+        interstitial: GADInterstitial,
+        error: GADRequestError) {
+        print("interstitialDidFailToReceiveAdWithError: %@" + error.localizedDescription)
     }
     
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
@@ -32,6 +63,8 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
     func customizeTableView () {
         self.tableView.backgroundColor = UIColor.clearColor()
     }
+    
+    //MARK: table view delegates
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
