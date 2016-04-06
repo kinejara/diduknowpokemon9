@@ -56,7 +56,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         dispatch_async(dispatch_get_main_queue(), {
             let title : String = "★★★★★"
             let message : String = NSLocalizedString("rate", comment: "")
-            let cancelTitle : String = NSLocalizedString("rate", comment: "")
+            let cancelTitle : String = NSLocalizedString("cancel", comment: "")
             
             let importantAlert: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: .Alert)
             

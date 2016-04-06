@@ -73,6 +73,8 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
         dispatch_async(dispatch_get_global_queue(priority, 0)) {
             let image = UIImage(named: "shareImage")
             let vc = UIActivityViewController(activityItems: [fact, image!], applicationActivities: [])
+            vc.popoverPresentationController?.sourceView = self.view
+            
             dispatch_async(dispatch_get_main_queue()) {
                 self.presentViewController(vc, animated: true, completion: nil)
             }

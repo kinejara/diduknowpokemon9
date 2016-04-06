@@ -1512,6 +1512,7 @@
 				B43AB7F61CB37FB900642FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B43AB7FC1CB37FB900642FF2 /* Build configuration list for PBXNativeTarget "did you know pokemon on TVTests" */ = {
 			isa = XCConfigurationList;
@@ -1520,6 +1521,7 @@
 				B43AB7F81CB37FB900642FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B43AB7FD1CB37FB900642FF2 /* Build configuration list for PBXNativeTarget "did you know pokemon on TVUITests" */ = {
 			isa = XCConfigurationList;
@@ -1528,6 +1530,7 @@
 				B43AB7FA1CB37FB900642FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE0E088E1CAF4CC000089BD0 /* Build configuration list for PBXNativeTarget "Did you know pokemon for apple watch Extension" */ = {
 			isa = XCConfigurationList;
