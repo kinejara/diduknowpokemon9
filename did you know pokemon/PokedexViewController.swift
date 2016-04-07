@@ -31,7 +31,6 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
     func loadTopBanner() {
         let request : GADRequest = GADRequest()
         //request.testDevices = ["ec71c4da41885827d9666c7fb42b8ad8"]
-        
         self.topBanner.adUnitID = "ca-app-pub-5770021040900540/8342016118"
         self.topBanner.rootViewController = self
         self.topBanner.loadRequest(request)
@@ -40,7 +39,7 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
     //MARK: ad video delegates
     func loadInterstitial() {
         let request : GADRequest = GADRequest()
-        //request.testDevices = ["ec71c4da41885827d9666c7fb42b8ad8"]
+        request.testDevices = ["ec71c4da41885827d9666c7fb42b8ad8"]
         
         self.interstitial = GADInterstitial(adUnitID: "ca-app-pub-5770021040900540/3412288914")
         self.interstitial.delegate = self
