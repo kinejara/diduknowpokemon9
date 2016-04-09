@@ -13,6 +13,7 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet var topBanner : GADBannerView!
+    @IBOutlet var bottomBanner : GADBannerView!
     var interstitial : GADInterstitial!
     var facts : [String] = PkmnFacts().allFacts
     let cellId = "pokeCell"
@@ -24,8 +25,8 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.tableView.backgroundColor = UIColor.appBackgroundColor()
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: self.cellId)
         
-        //self.loadInterstitial()
         self.loadTopBanner()
+        self.loadBannerBanner()
     }
     
     func loadTopBanner() {
@@ -34,6 +35,14 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.topBanner.adUnitID = "ca-app-pub-5770021040900540/8342016118"
         self.topBanner.rootViewController = self
         self.topBanner.loadRequest(request)
+    }
+    
+    func loadBannerBanner() {
+        let request : GADRequest = GADRequest()
+        //request.testDevices = ["ec71c4da41885827d9666c7fb42b8ad8"]
+        self.bottomBanner.adUnitID = "ca-app-pub-5770021040900540/6479846516"
+        self.bottomBanner.rootViewController = self
+        self.bottomBanner.loadRequest(request)
     }
     
     //MARK: ad video delegates
