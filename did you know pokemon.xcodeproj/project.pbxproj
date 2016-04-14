@@ -1241,7 +1241,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "did you know pokemon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-Lite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1258,7 +1258,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "did you know pokemon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-Lite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1419,7 +1419,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Did_you_know_pokemon_for_apple_watch_Extension;
 				INFOPLIST_FILE = "Did you know pokemon for apple watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watch";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-Lite.watch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -1440,7 +1440,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Did_you_know_pokemon_for_apple_watch_Extension;
 				INFOPLIST_FILE = "Did you know pokemon for apple watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watch";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-Lite.watch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -1460,7 +1460,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Did you know pokemon for apple watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watch.extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-Lite.watch.extension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -1480,7 +1480,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Did you know pokemon for apple watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.watch.extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-Lite.watch.extension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -1497,9 +1497,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DidYouKnowForPokemonWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.DidYouKnowForPokemonWidget";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-Lite.DidYouKnowForPokemonWidget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -1514,9 +1514,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DidYouKnowForPokemonWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon.DidYouKnowForPokemonWidget";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.did-you-know-pokemon-Lite.DidYouKnowForPokemonWidget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;

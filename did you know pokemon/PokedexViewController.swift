@@ -25,8 +25,8 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.tableView.backgroundColor = UIColor.appBackgroundColor()
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: self.cellId)
         
-        self.loadTopBanner()
-        self.loadBannerBanner()
+        //self.loadTopBanner()
+        //self.loadBannerBanner()
     }
     
     func loadTopBanner() {

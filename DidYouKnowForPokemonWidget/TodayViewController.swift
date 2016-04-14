@@ -11,7 +11,7 @@ import NotificationCenter
 
 class TodayViewController: UIViewController, NCWidgetProviding {
         
-    @IBOutlet weak var todayLabel: UILabel!
+    @IBOutlet weak var poke: UILabel!
     var facts : [String] = PkmnFacts().allFacts.shuffle()
     
     override func viewDidLoad() {
@@ -33,11 +33,11 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(TodayViewController.handleSingleTapinTextView))
         
-        self.todayLabel.text = facts.first
-        self.todayLabel.textAlignment = .Center
-        self.todayLabel.font = UIFont(name: "pokemonGB", size: 14.0)
-        self.todayLabel.userInteractionEnabled = true;
-        self.todayLabel.addGestureRecognizer(tapGesture)
+        self.poke.text = facts.first
+        self.poke.textAlignment = .Center
+        self.poke.font = UIFont(name: "pokemonGB", size: 14.0)
+        self.poke.userInteractionEnabled = true;
+        self.poke.addGestureRecognizer(tapGesture)
         
         completionHandler(NCUpdateResult.NewData)
     }
